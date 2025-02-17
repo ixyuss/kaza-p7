@@ -71,10 +71,7 @@ const Description = ({ currentHousing }) => {
               {currentHousing.equipments &&
                 currentHousing.equipments.map((equipment, index) => (
                   <li key={index}>
-                    <span
-                      className="fa-solid fa-check"
-                      style={{ color: "#ff6060" }}
-                    ></span>
+                   
                     {"  "}
                     {equipment}
                   </li>
